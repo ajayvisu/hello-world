@@ -4,7 +4,7 @@ const app = express();
 
 const port = 6600;
 
-app.get("/", (req, res) => {
+app.get("/hello-world", (req, res) => {
   return res.send("hello world");
   // console.log("server started")
 });
